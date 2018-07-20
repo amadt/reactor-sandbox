@@ -244,7 +244,7 @@ module.exports = function() {
     extensionOutput.hostedLibFilesBaseUrl =
       '/hostedLibFiles/' + extensionDescriptor.name + '/' + extensionDescriptor.version + '/';
 
-    augmentModules(extensionOutput, extensionDescriptor, extensionPath);
+    // augmentModules(extensionOutput, extensionDescriptor, extensionPath);
   });
 
   augmentSandboxEvents(extensionsOutput);
